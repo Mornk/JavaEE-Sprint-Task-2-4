@@ -7,6 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div style="display: flex; background: DarkGreen;padding: 12px; margin: 8px; color:white;">
-    <a class="navbar-brand" href="home.jsp" style="padding-right: 10px;"><b>TASK MANAGER</b></a>
-    <div><a class="nav-link" href="home.jsp">All tasks</a></div>
+    <a class="navbar-brand" href="/home" style="padding-right: 10px;"><b>TASK MANAGER</b></a>
+    <div><a class="nav-link" href="/home">All tasks</a></div>
 </div>

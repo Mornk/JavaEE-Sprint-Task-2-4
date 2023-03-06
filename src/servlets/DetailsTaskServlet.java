@@ -8,7 +8,7 @@ import models.Tasks;
 
 import java.io.IOException;
 
-@WebServlet(name = "DetailsTaskServlet", value = "/DetailsTaskServlet")
+@WebServlet(name = "DetailsTaskServlet", value = "/detailsTasks")
 public class DetailsTaskServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -14,7 +14,7 @@
 </head>
 <body>
 <%@include file="head.jsp"%>
-<form action="addTask.jsp" method="post">
+<form action="/addTask" method="post">
     <div style="width: 600px; padding: 5px; margin:auto; justify-content: center">
         <div class="mb-3">
             <h4>New Task</h4>

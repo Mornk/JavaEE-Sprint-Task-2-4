@@ -17,7 +17,7 @@
     Tasks t = (Tasks) request.getAttribute("task");
     if (t!=null){
 %>
-<form action="changeTask" method="post">
+<form action="/changeTask" method="post">
     <div style="width: 600px; padding: 5px; margin:auto; justify-content: center">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -42,7 +42,7 @@
     </div>
 </form>
 <div style="display: inline-block; width: 100%; text-align: center">
-    <form method="post" action="deleteTask">
+    <form method="post" action="/deleteTask">
         <input type="hidden" name="iddelete" value="<%=t.getId()%>">
         <button type="submit" style="background-color: red; color: white">Delete</button>
     </form>

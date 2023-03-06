@@ -17,7 +17,7 @@
 <body>
 <%@include file="head.jsp"%>
 <div>
-    <a href="addTask.jsp" class="btn btn-info btn-sm" style="padding: 5px 20px; background-color: deepskyblue;color:white; margin: 10px">+ ADD TASK</a>
+    <a href="/addTask" class="btn btn-info btn-sm" style="padding: 5px 20px; background-color: deepskyblue;color:white; margin: 10px">+ ADD TASK</a>
 </div>
 <div class ="container" >
     <div class="row mt-5">
@@ -41,7 +41,7 @@
                     <td><%=t.getName()%></td>
                     <td><%=t.getDeadlineDate()%></td>
                     <td><%=t.getStatus()%></td>
-                    <td><a href="detailsTasks.jsp?id=<%=t.getId()%>" class="btn btn-info btn-sm" style="padding: 5px 20px; background-color: deepskyblue;color:white" >Details</a></td>
+                    <td><a href="/detailsTasks?id=<%=t.getId()%>" class="btn btn-info btn-sm" style="padding: 5px 20px; background-color: deepskyblue;color:white" >Details</a></td>
                 </tr>
                 <%
                         }
